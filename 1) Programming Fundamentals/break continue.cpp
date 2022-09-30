@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+	int x=1;
+	for(x=1;x<=10;x++)
+	{
+		if(x==5)
+		{
+			break;
+		}
+		cout<<x<<endl;
+	}
+
+	return 0;
+}
